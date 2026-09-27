@@ -12,8 +12,8 @@ public class Person {
   Comparator<Person> comparator =
       (new PersonNameComparator()).thenComparing(new PersonAgeComparator());
   TreeSet<Person> persons = new TreeSet<>(comparator);
-  String name;
-  int age;
+  private String name;
+  private int age;
 
   public void addPerson() {
     Scanner sc = new Scanner(System.in);

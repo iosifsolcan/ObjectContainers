@@ -4,9 +4,9 @@ import java.util.List;
 import ro.Persons.Person.Address.Address;
 
 public class Hobby {
-  public String name;
+  private final String name;
   public int frequency;
-  public List<Address> addresses;
+  private final List<Address> addresses;
 
   public Hobby(String name, int frequency, List<Address> addresses) {
     this.name = name;

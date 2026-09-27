@@ -3,7 +3,7 @@ package ro.Persons.Person.Address;
 public class Address {
   public String city;
   public String street;
-  public String country;
+  private String country;
 
   public Address() {}
 
